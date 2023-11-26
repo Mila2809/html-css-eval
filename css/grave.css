@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(163, 100, 100);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-image: url(fondrouge.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(87, 45, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+h1{
+    color: aliceblue;
+    margin-top: 0.7%;
+}
+
+.nav-links{
+    margin: 6%;
+}
+
+.navbar{
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: aliceblue;
+}
+
+.navbar .name{
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.navbar .nav-links ul{
+    display: flex;
+}
+
+.navbar .nav-links ul li{
+    margin: 0 25px;
+}
+
+.navbar .nav-links ul li.active a {
+    margin: 0 25px;
+}
+
+.cadregris{
+    background-color: rgba(0, 0, 0, 0.491);
+    border-radius: 30px;
+    height: 500px;
+    margin: 5%;
+}
+
+.dansgris{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.texte1{
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image img{
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 7%;
+    margin-left: 7%;
+}
+
+.presente{
+    color: aliceblue;
+    font-size: larger;
+    margin-left: 2.5%;
+    width: 1000px;
+}
+
+.titre1{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 300%;
+    margin-bottom: 0.5%;
+}
+
+.texte2{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 1%;
+}
+
+.resumer{
+    color: aliceblue;
+    font-size: larger;
+    margin-bottom: 1%;
+}
+
+.resumergrave{
+    color: aliceblue;
+    font-size: larger;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+
+}
+
+footer{
+    margin-top: 5%;
+    background-image: url(fondrouge.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    margin-left: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
