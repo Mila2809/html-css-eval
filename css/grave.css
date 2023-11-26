@@ -142,3 +142,50 @@ h2{
     margin-left: 1%;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+@media all and (max-device-width: 480px){
+    .navbar{
+        font-size: smaller;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h1{
+        margin: -10%;
+        margin-top: -3%;
+    }
+    .nav-links{
+        margin-top: 25%;
+    }
+    .cadregris{
+        height: 1200px;
+    }
+    .presente{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 0%;
+        margin: 7%;
+        margin-bottom: -1%;
+    }
+    .titre1{
+        margin-top: -6%;
+        margin-bottom: 4%;
+    }
+    .texte1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image img{
+        margin-left: 7%;
+        width: 320px;
+    }
+    .texte2{
+        margin: 7%;
+    }
+    .resumer{
+        margin-bottom: 7%;
+    }
+    h2{
+        margin-left: 5%;
+    }
+}
