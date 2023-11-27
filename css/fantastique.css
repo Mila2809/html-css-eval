@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(100, 126, 163);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-image: url(giphynoir.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(87, 45, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+h1{
+    color: aliceblue;
+    margin-top: 0.7%;
+}
+
+h2{
+    background-color: rgba(0, 0, 0, 0.491);
+    color: rgb(255, 255, 255);
+    height: 130px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 2%;
+    padding: 0.5vw;
+}
+
+.nav-links{
+    margin: 6%;
+}
+
+.navbar{
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: aliceblue;
+}
+
+.navbar .name{
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.navbar .nav-links ul{
+    display: flex;
+}
+
+.navbar .nav-links ul li{
+    margin: 0 25px;
+}
+
+.navbar .nav-links ul li.active a {
+    margin: 0 25px;
+}
+
+
+.un{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.cadre1{
+    background-color: rgba(0, 0, 0, 0.491);
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    width: 580px;
+    height: 300px;
+}
+
+.souscadre1{
+    display: flex;
+    flex-direction: row;
+}
+
+.underworldnouvelleere img{
+    width: 200px;
+    border-radius: 20px;
+    margin: 7%;
+}
+
+.texte1{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 3%;
+    margin-left: 5.5%;
+}
+
+.titre1{
+    color: aliceblue;
+    margin-bottom: 4%;
+}
+
+.resumerunderworldnouvelleere{
+    color: aliceblue;
+}
+
+.cadre2{
+    background-color: rgba(0, 0, 0, 0.491);
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    width: 580px;
+    height: 300px;
+}
+
+.souscadre2{
+    display: flex;
+    flex-direction: row;
+}
+
+.leseigneurdesanneauxlacommunautedelanneau img{
+    width: 200px;
+    border-radius: 20px;
+    margin: 7%;
+}
+
+.texte2{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 3%;
+    margin-left: 5.5%;
+}
+
+.titre2{
+    color: aliceblue;
+    margin-bottom: 4%;
+}
+
+.resumerleseigneurdesanneauxlacommunautedelanneau{
+    color: aliceblue;
+}
+
+.cadre3{
+    background-color: rgba(0, 0, 0, 0.491);
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    width: 580px;
+    height: 300px;
+}
+
+.souscadre3{
+    display: flex;
+    flex-direction: row;
+}
+
+.lesanimauxfantastiques img{
+    width: 200px;
+    border-radius: 20px;
+    margin: 7%;
+}
+
+.texte3{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 3%;
+    margin-left: 5.5%;
+}
+
+.titre3{
+    color: aliceblue;
+    margin-bottom: 4%;
+}
+
+.resumerlesanimauxfantastiques{
+    color: aliceblue;
+}
+
+.deux{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.cadre4{
+    background-color: rgba(0, 0, 0, 0.491);
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    width: 580px;
+    height: 300px;
+}
+
+.souscadre4{
+    display: flex;
+    flex-direction: row;
+}
+
+.lehobbitunvoyageinattendu img{
+    width: 200px;
+    border-radius: 20px;
+    margin: 7%;
+}
+
+.texte4{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 3%;
+    margin-left: 5.5%;
+}
+
+.titre4{
+    color: aliceblue;
+    margin-bottom: 4%;
+}
+
+.resumerlehobbitunvoyageinattendu{
+    color: aliceblue;
+}
+
+.cadre5{
+    background-color: rgba(0, 0, 0, 0.491);
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    width: 580px;
+    height: 300px;
+}
+
+.souscadre5{
+    display: flex;
+    flex-direction: row;
+}
+
+.harrypotteretlacoupedefeu img{
+    width: 200px;
+    border-radius: 20px;
+    margin: 7%;
+}
+
+.texte5{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 3%;
+    margin-left: 5.5%;
+}
+
+.titre5{
+    color: aliceblue;
+    margin-bottom: 4%;
+}
+
+.resumerharrypotteretlacoupedefeu{
+    color: aliceblue;
+}
+
+.cadre6{
+    background-color: rgba(0, 0, 0, 0.491);
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    width: 580px;
+    height: 300px;
+}
+
+.souscadre6{
+    display: flex;
+    flex-direction: row;
+}
+
+.hancock img{
+    width: 200px;
+    border-radius: 20px;
+    margin: 7%;
+}
+
+.texte6{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 3%;
+    margin-left: 5.5%;
+}
+
+.titre6{
+    color: aliceblue;
+    margin-bottom: 4%;
+}
+
+.resumerhancock{
+    color: aliceblue;
+}
+
+footer{
+    margin-top: 2%;
+    background-image: url(giphynoir.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+h3{
+    margin-left: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media all and (max-device-width: 480px){
+    .navbar{
+        font-size: smaller;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h1{
+        margin: -10%;
+        margin-top: -3%;
+    }
+    .nav-links{
+        margin-top: 25%;
+    }
+    .un{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5%;
+    }
+    .deux{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5%;
+    }
+    .cadre1{
+        height: 50%;
+        margin-bottom: 5%;
+    }
+    .souscadre1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .underworldnouvelleere img{
+        margin-left: -0.1%;
+        width: 320px;
+    }
+    .texte1{
+        margin-bottom: 5%;
+        margin-right: 5%;
+    }
+    .cadre2{
+        height: 50%;
+        margin-bottom: 5%;
+    }
+    .souscadre2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .leseigneurdesanneauxlacommunautedelanneau img{
+        margin-left: -0.1%;
+        width: 320px;
+    }
+    .texte2{
+        margin-bottom: 5%;
+        margin-right: 5%;
+    }
+    .cadre3{
+        height: 50%;
+    }
+    .souscadre3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .lesanimauxfantastiques img{
+        margin-left: -0.1%;
+        width: 320px;
+    }
+    .texte3{
+        margin-bottom: 5%;
+        margin-right: 5%;
+    }
+    .cadre4{
+        height: 50%;
+        margin-bottom: 5%;
+    }
+    .souscadre4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .lehobbitunvoyageinattendu img{
+        margin-left: -0.1%;
+        width: 320px;
+    }
+    .texte4{
+        margin-bottom: 5%;
+        margin-right: 5%;
+    }
+    .cadre5{
+        height: 50%;
+        margin-bottom: 5%;
+    }
+    .souscadre5{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .harrypotteretlacoupedefeu img{
+        margin-left: -0.1%;
+        width: 320px;
+    }
+    .texte5{
+        margin-bottom: 5%;
+        margin-right: 5%;
+    }
+    .cadre6{
+        height: 50%;
+    }
+    .souscadre6{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hancock img{
+        margin-left: -0.1%;
+        width: 320px;
+    }
+    .texte6{
+        margin-bottom: 5%;
+        margin-right: 5%;
+    }
+    h3{
+        margin-left: 5%;
+    }
+    h2{
+    margin: 4.5%;
+    margin-bottom: 2.5%;
+    }
+}
